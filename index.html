@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <title>Calculator</title>
+    <p>please only enter 2 numbers (because this calculator sucks ass)</p>
+    <head>
+        <header>Calculator</header>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="buttons" class="parent">
+
+            <div id="screen">
+                <p id="display">0</p>
+            </div>
+
+
+            <div id="operations" class="child">
+                <button data-action="plus" id="plus">+</button>
+                <div></div>
+                <button data-action="minus" id="minus">-</button>
+                <div></div>
+                <button data-action="multiply" id="multi">×</button>
+                <div></div>
+                <button data-action="divide" id="divide">÷</button>
+            </div>
+            <div id="numbers" class="child">
+                <button id="seven">7</button>
+                <button id="eight">8</button>
+                <button id="nine">9</button>
+                <div></div>
+                <button id="four">4</button>
+                <button id="five">5</button>
+                <button id="six">6</button>
+                <div></div>
+                <button id="one">1</button>
+                <button id="two">2</button>
+                <button id="three">3</button>
+                <div></div>
+                <button id="zero">0</button>
+                <button data-action="decimal" id="dec">.</button>
+                <button data-action="clear" id="clear">C</button>
+           </div>
+           <button data-action="enter" id="enter">=</button>
+       </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

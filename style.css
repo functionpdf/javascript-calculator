@@ -1,0 +1,116 @@
+
+header {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px
+}
+
+#button {
+    margin: auto
+}
+
+#screen {
+    margin: auto;
+    max-width: 250px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+#numbers button {
+    display: grid;
+    background-color: #55585c;
+    border-radius: 10px;
+    border-style: outset;
+    color: white;
+    font-family: 'monaco';
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  #numbers button:hover {background-color: #2e343b}
+
+#enter {
+    background-color: #6ea2db;
+    border-radius: 10px;
+    border-style: outset;
+    color: white;
+    font-family: 'monaco';
+    padding: 75px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+ }
+
+ #enter:hover {background-color: #124279}
+
+#plus {
+    background-color: #828487;
+    border-radius: 10px;
+    border-style: outset;
+    color: white;
+    font-family: 'monaco';
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#minus {
+    background-color: #828487;
+    border-radius: 10px;
+    border-style: outset;
+    color: white;
+    font-family: 'monaco';
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#multi {
+    background-color: #828487;
+    border-radius: 10px;
+    border-style: outset;
+    color: white;
+    font-family: 'monaco';
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#divide {
+    background-color: #828487;
+    border-radius: 10px;
+    border-style: outset;
+    color: white;
+    font-family: 'monaco';
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#operations button:hover {background-color: #516884}
+
+.parent {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .child {
+    display: inline-block;
+    border: 1px;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
